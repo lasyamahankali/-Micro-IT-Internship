@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 0;
+  }
+  
+  .app {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  .input-section {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 30px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+  }
+  
+  button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3498db;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #fdfdfd;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin-bottom: 16px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .task-text {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .task-text.completed {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .actions button {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+  }
+  
+  .actions button:hover {
+    background-color: #dcdde1;
+  }
+  select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #2c3e50;
+  }
+  
+  .meta {
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-style: italic;
+  }
+  
+  
